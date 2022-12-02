@@ -1,6 +1,6 @@
-import classes from "./CartButton.module.css";
-
 import { useSelector } from "react-redux";
+
+import classes from "./CartButton.module.css";
 
 const CartButton = (props) => {
   const cartQuantity = useSelector((state) => state.cart.totalQuantity);
